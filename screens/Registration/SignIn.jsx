@@ -14,7 +14,7 @@ import {
   import { SafeAreaView } from "react-native-safe-area-context";
   import DataContext from '../..//context/DataContext';
 
-  
+
   const SignIn = ({ navigation }) => {
     const {
       email,
@@ -36,7 +36,7 @@ import {
         navigation.navigate('Home');
       });
     }
-  
+
     if (signed === true) {
       redirect();
     }
@@ -75,7 +75,7 @@ import {
                   source={require("../../assets/createAccountDark.png")}
                 />
               )} */}
-  
+
               <Text
                 style={{
                   paddingTop: 30,
@@ -136,9 +136,9 @@ import {
       </SafeAreaView>
     );
   };
-  
+
   export default SignIn;
-  
+
   const styles = StyleSheet.create({
     textInput: {
       backgroundColor: "#EDF0F7",

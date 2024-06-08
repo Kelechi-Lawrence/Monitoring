@@ -9,7 +9,6 @@ export default function App() {
     <StackNavigator />
     </DataProvider>
   )
-
 }
 
 const styles = StyleSheet.create({
